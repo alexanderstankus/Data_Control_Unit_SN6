@@ -20,17 +20,33 @@ The DCU (Data Control Unit) for Formula Electric at Berkeley's SN6 vehicle is de
 **Schematic**
 -
 <img width="1040" height="771" alt="DCU _sch_s1" src="https://github.com/user-attachments/assets/6eb4e5f5-b735-42f6-a869-9646ff346d4f" />
-<img width="1018" height="803" alt="DCU_sch_s4" src="https://github.com/user-attachments/assets/9a9d182b-90cb-4925-a1c0-43512db4060a" />
-<img width="1018" height="803" alt="DCU_sch_s3" src="https://github.com/user-attachments/assets/1327c1f1-eab0-48e2-9233-4bfc953eaa31" />
-<img width="1017" height="805" alt="DCU_sch_s2" src="https://github.com/user-attachments/assets/c1e0b860-e0af-44b8-bd0f-4ee1303c287c" />
-<img width="722" height="685" alt="DCU_Layout" src="https://github.com/user-attachments/assets/e8738c5c-390a-43cb-b7a9-7f8b901932bc" />
+*Schematic Sheet 1: Contains the CAN Connector (MX150), USBC set in Full Speed Configuration, LoRa Radio Implementation, SD Card Holder, and ST67 Wifi Module with a TCXO.*
 
+<img width="1018" height="803" alt="DCU_sch_s3" src="https://github.com/user-attachments/assets/1327c1f1-eab0-48e2-9233-4bfc953eaa31" />
+*Schematic Sheet 2: Contains the Microbasic module with an STM32 MCU and a UPS Block Set Up to prevent voltage drop and corruption on all components using +5V or +3.3V.*
+
+<img width="1017" height="805" alt="DCU_sch_s2" src="https://github.com/user-attachments/assets/c1e0b860-e0af-44b8-bd0f-4ee1303c287c" />
+*Schematic Sheet 3: Contains all LDOs and Buck Converters used to step the voltage down from +24V to +5V to +3.3V. Also contains ideal diode ICs for reverse-current protection.*
+
+<img width="1018" height="803" alt="DCU_sch_s4" src="https://github.com/user-attachments/assets/9a9d182b-90cb-4925-a1c0-43512db4060a" />
+*Schematic Sheet 4: Contains the TPS block to regulate our +24V raw from the battery pack to +24V to power the board.*
 
 **Layout**
 -
+<img width="722" height="685" alt="DCU_Layout" src="https://github.com/user-attachments/assets/e8738c5c-390a-43cb-b7a9-7f8b901932bc" />
+*Layout: 4 layer board utilizing 4 ground pours.*
 
 
 **3D View**
 - 
+<img width="722" height="811" alt="Screenshot 2026-09-27 at 7 07 49 PM" src="https://github.com/user-attachments/assets/d2af4a91-a69b-4a54-9db7-7879e835929e" />
 
+
+*Additional PDF featuring the Schematic and Layout can be found in the exports folder within the repo*
+
+Designed on Altium Designer by Alexander Stankus
+
+GitHub: @alexanderstankus
+
+Email: alexstankus99@gmail.com
 
