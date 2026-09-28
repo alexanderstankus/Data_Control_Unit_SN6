@@ -23,6 +23,7 @@ The DCU (Data Control Unit) for Formula Electric at Berkeley's SN6 vehicle is de
 *Schematic Sheet 1: Contains the CAN Connector (MX150), USBC set in Full Speed Configuration, LoRa Radio Implementation, SD Card Holder, and ST67 Wifi Module with a TCXO.*
 
 
+
 <img width="1018" height="803" alt="DCU_sch_s3" src="https://github.com/user-attachments/assets/1327c1f1-eab0-48e2-9233-4bfc953eaa31" />
 *Schematic Sheet 2: Contains the Microbasic module with an STM32 MCU and a UPS Block Set Up to prevent voltage drop and corruption on all components using +5V or +3.3V.*
 
