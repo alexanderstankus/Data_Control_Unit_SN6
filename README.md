@@ -22,14 +22,18 @@ The DCU (Data Control Unit) for Formula Electric at Berkeley's SN6 vehicle is de
 <img width="1040" height="771" alt="DCU _sch_s1" src="https://github.com/user-attachments/assets/6eb4e5f5-b735-42f6-a869-9646ff346d4f" />
 *Schematic Sheet 1: Contains the CAN Connector (MX150), USBC set in Full Speed Configuration, LoRa Radio Implementation, SD Card Holder, and ST67 Wifi Module with a TCXO.*
 
+
 <img width="1018" height="803" alt="DCU_sch_s3" src="https://github.com/user-attachments/assets/1327c1f1-eab0-48e2-9233-4bfc953eaa31" />
 *Schematic Sheet 2: Contains the Microbasic module with an STM32 MCU and a UPS Block Set Up to prevent voltage drop and corruption on all components using +5V or +3.3V.*
+
 
 <img width="1017" height="805" alt="DCU_sch_s2" src="https://github.com/user-attachments/assets/c1e0b860-e0af-44b8-bd0f-4ee1303c287c" />
 *Schematic Sheet 3: Contains all LDOs and Buck Converters used to step the voltage down from +24V to +5V to +3.3V. Also contains ideal diode ICs for reverse-current protection.*
 
+
 <img width="1018" height="803" alt="DCU_sch_s4" src="https://github.com/user-attachments/assets/9a9d182b-90cb-4925-a1c0-43512db4060a" />
 *Schematic Sheet 4: Contains the TPS block to regulate our +24V raw from the battery pack to +24V to power the board.*
+
 
 **Layout**
 -
