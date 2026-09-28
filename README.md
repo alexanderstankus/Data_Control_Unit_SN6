@@ -1,3 +1,4 @@
+
 # Data_Control_Unit_SN6
 Data Control Unit PCB for UC Berkeley's Formula Electric SN6 race car in the FSAE Electric competition.
 -
@@ -18,6 +19,11 @@ The DCU (Data Control Unit) for Formula Electric at Berkeley's SN6 vehicle is de
 
 **Schematic**
 -
+<img width="1040" height="771" alt="DCU _sch_s1" src="https://github.com/user-attachments/assets/6eb4e5f5-b735-42f6-a869-9646ff346d4f" />
+<img width="1018" height="803" alt="DCU_sch_s4" src="https://github.com/user-attachments/assets/9a9d182b-90cb-4925-a1c0-43512db4060a" />
+<img width="1018" height="803" alt="DCU_sch_s3" src="https://github.com/user-attachments/assets/1327c1f1-eab0-48e2-9233-4bfc953eaa31" />
+<img width="1017" height="805" alt="DCU_sch_s2" src="https://github.com/user-attachments/assets/c1e0b860-e0af-44b8-bd0f-4ee1303c287c" />
+<img width="722" height="685" alt="DCU_Layout" src="https://github.com/user-attachments/assets/e8738c5c-390a-43cb-b7a9-7f8b901932bc" />
 
 
 **Layout**
